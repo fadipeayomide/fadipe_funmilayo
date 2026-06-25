@@ -5,7 +5,7 @@
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <!-- Main Portfolio Homepage -->
     <url>
-        <loc>https://fadipe_funmilayo.vercel.app/</loc>
+        <loc>https://fadipe-funmilayo.vercel.app/</loc>
         <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.00</priority>
@@ -13,7 +13,7 @@
 
     <!-- Certificate 1: National Development & Leadership Debate -->
     <url>
-        <loc>https://fadipe_funmilayo.vercel.app/certs/certificates_1.jpg</loc>
+        <loc>https://fadipe-funmilayo.vercel.app/certs/certificates_1.jpg</loc>
         <lastmod>2026-06-25</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.70</priority>
@@ -21,7 +21,7 @@
 
     <!-- Certificate 2: Diplomatic Summit 1.0 -->
     <url>
-        <loc>https://fadipe_funmilayo.vercel.app/certs/certificates_2.jpg</loc>
+        <loc>https://fadipe-funmilayo.vercel.app/certs/certificates_2.jpg</loc>
         <lastmod>2026-06-25</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.70</priority>
@@ -29,7 +29,7 @@
 
     <!-- Certificate 3: Academic Excellence Recognition -->
     <url>
-        <loc>https://fadipe_funmilayo.vercel.app/certs/certificates_3.jpg</loc>
+        <loc>https://fadipe-funmilayo.vercel.app/certs/certificates_3.jpg</loc>
         <lastmod>2026-06-25</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.70</priority>
@@ -37,7 +37,7 @@
 
     <!-- Certificate 4: Community Engagement Award -->
     <url>
-        <loc>https://fadipe_funmilayo.vercel.app/certs/certificates_4.jpg</loc>
+        <loc>https://fadipe-funmilayo.vercel.app/certs/certificates_4.jpg</loc>
         <lastmod>2026-06-25</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.70</priority>
@@ -45,7 +45,7 @@
 
     <!-- Certificate 5: Research & Analysis -->
     <url>
-        <loc>https://fadipe_funmilayo.vercel.app/certs/certificates_5.pdf</loc>
+        <loc>https://fadipe-funmilayo.vercel.app/certs/certificates_5.pdf</loc>
         <lastmod>2026-06-25</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.70</priority>
@@ -53,7 +53,7 @@
 
     <!-- Certificate 6: Innovation & Problem-Solving -->
     <url>
-        <loc>https://fadipe_funmilayo.vercel.app/certs/certificates_6.jpg</loc>
+        <loc>https://fadipe-funmilayo.vercel.app/certs/certificates_6.jpg</loc>
         <lastmod>2026-06-25</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.70</priority>
