@@ -1,0 +1,28 @@
+# ==============================================================================
+# Robots.txt for Fadipe Funmilayo Adewale Professional Portfolio
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /certs/
+
+# Disallow indexing of configuration, build assets, or hidden files
+Disallow: /config/
+Disallow: /manifest.json
+Disallow: /.*
+Disallow: /*.json$
+
+# Target specific aggressive AI scrapers to prevent unauthorized data mining
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+# Host & Sitemap alignment
+Host: https://fadipe_funmilayo.vercel.app
+Sitemap: https://fadipe_funmilayo.vercel.app/sitemap.xml

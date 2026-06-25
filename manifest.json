@@ -1,0 +1,45 @@
+{
+  "short_name": "FFA Portfolio",
+  "name": "Fadipe Funmilayo Adewale | Professional Portfolio",
+  "description": "Economics and Development Studies student at FUOYE. exploring economic development, governance, and technology-driven solutions for Africa.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0066cc",
+  "background_color": "#0a0e27",
+  "orientation": "portrait-primary",
+  "categories": [
+    "education",
+    "personalization"
+  ]
+}

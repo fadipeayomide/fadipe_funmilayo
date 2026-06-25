@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fadipe Funmilayo | Portfolio QR Code</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+    <style>
+      :root {
+        --primary: #0066cc;
+        --secondary: #00d4ff;
+        --dark-bg: #0a0e27;
+        --light-bg: #f4f7fc;
+        --card-bg: #ffffff;
+        --text: #1a1a2e;
+        --muted: #6b7280;
+      }
+
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        background: var(--light-bg);
+        color: var(--text);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+
+      /* Clean, executive presentation card centering the code */
+      .qr-card {
+        background: var(--card-bg);
+        padding: 3rem 2.5rem;
+        border-radius: 24px;
+        box-shadow: 0 20px 50px rgba(10, 14, 39, 0.08);
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+        border: 1px solid rgba(0, 102, 204, 0.08);
+      }
+
+      .header-tag {
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: var(--primary);
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+      }
+
+      .title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 0.25rem;
+      }
+
+      .subtitle {
+        font-size: 0.9rem;
+        color: var(--muted);
+        margin-bottom: 2.5rem;
+      }
+
+      /* Wrapper to hold the injection target smoothly */
+      .qr-wrapper {
+        display: inline-block;
+        padding: 1.2rem;
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: inset 0 0 0 1px rgba(0, 102, 204, 0.1);
+        margin-bottom: 2rem;
+      }
+
+      /* Forces the generated canvas/img to scale beautifully */
+      #qrcode img, #qrcode canvas {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .scan-prompt {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--primary);
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+
+      /* Optimization for clean paper printing */
+      @media print {
+        body { background: #ffffff; }
+        .qr-card { box-shadow: none; border: none; padding: 0; }
+      }
+    </style>
+</head>
+<body>
+
+    <div class="qr-card">
+        <div class="header-tag">Fadipe Funmilayo</div>
+        <h1 class="title">Academic Portfolio</h1>
+        <p class="subtitle">Economics &amp; Development Studies</p>
+        
+        <div class="qr-wrapper">
+            <!-- The Javascript module will inject the high-res image here -->
+            <div id="qrcode"></div>
+        </div>
+        
+        <div class="scan-prompt">Scan to visit website</div>
+    </div>
+
+    <!-- Load the generation library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Target production deployment link URL
+            const portfolioUrl = "https://fadipe_funmilayo.vercel.app";
+
+            new QRCode(document.getElementById("qrcode"), {
+                text: portfolioUrl,
+                width: 220,
+                height: 220,
+                colorDark: "#0066cc",   // Brand specific blue
+                colorLight: "#ffffff",  // Clear background
+                correctLevel: QRCode.CorrectLevel.H
+            });
+        });
+    </script>
+</body>
+</html>
