@@ -80,7 +80,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script>
-      (function(){ emailjs.init("YOUR_PUBLIC_KEY_HERE"); })();
+      (function(){ emailjs.init("hubSJloCRXEudbtAc"); })();
     </script>
 
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
@@ -631,7 +631,7 @@ contactForm.addEventListener('submit', function(e) {
     submitBtn.disabled = true;
     submitBtn.textContent = 'Sending...';
 
-    emailjs.send('service_YOUR_SERVICE_ID', 'template_YOUR_TEMPLATE_ID', {
+    emailjs.send('service_s09br6g', 'template_llhhty4', {
         from_name: data.name,
         from_email: data.email,
         subject: data.subject,
