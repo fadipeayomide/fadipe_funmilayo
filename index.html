@@ -628,14 +628,19 @@ contactForm.addEventListener('submit', function(e) {
         message: document.getElementById('message').value
     };
 
-    // UPDATE CODE:
-emailjs.send('service_s09br6g', 'template_llhhty4', {
-    name: data.name,       // Changed from from_name to name
-    email: data.email,     // Changed from from_email to email
-    subject: data.subject,
-    message: data.message,
-    reply_to: data.email
-})
+        submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+
+    // REPLACE YOUR OLD EMAILJS.SEND WITH THIS EXACT BLOCK:
+    emailjs.send('service_s09br6g', 'template_llhhty4', {
+        name: data.name,       
+        email: data.email,     
+        subject: data.subject,
+        message: data.message,
+        reply_to: data.email
+    }).then(function() {
+        formMessage.textContent = '✓ Message sent successfully! I\'ll get back to you soon.';
+
 
         formMessage.style.display = 'block';
         formMessage.style.background = 'rgba(46, 204, 113, 0.1)';
