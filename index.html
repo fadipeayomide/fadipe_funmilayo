@@ -748,5 +748,11 @@ document.addEventListener('keydown', (e) => {
 });
 </script>
 
+self.addEventListener('fetch', (event) => {
+  // Basic fetch pass-through to satisfy PWA criteria
+  event.respondWith(fetch(event.request));
+});
+
+
 </body>
 </html>
