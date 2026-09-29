@@ -1,7 +1,3 @@
-# ==============================================================================
-# Robots.txt for Fadipe Funmilayo Adewale Professional Portfolio
-# ==============================================================================
-
 User-agent: *
 Allow: /
 Allow: /index.html
